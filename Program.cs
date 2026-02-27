@@ -32,6 +32,7 @@ public class Program
         
                          professorAtual = professorAtual.CadastrarProfessor(professorAtual);
                             listaprofessores.Add(professorAtual);
+                            professorAtual = new Professor();
                 break;
 
                 case 2:
